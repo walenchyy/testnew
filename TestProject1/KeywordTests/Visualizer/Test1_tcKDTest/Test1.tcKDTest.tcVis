@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{6576F77B-53C1-43A2-9778-94785F03DEBB}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="44791.41625" objectName="Aliases.browser.pageHomePageAccidentReporting.navSkipToContent.textnodeHome.textnodeAccidentReports.linkAccidentReports" objectLeft="481" objectTop="186" objectRight="644" objectBottom="234" clickPointX="603" clickPointY="202" imageFileName="tcvi528707484246164.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="4" kind="0" dateTime="44791.4162615741" objectName="Aliases.browser.pageAccident.navSkipToContent.textnodeHome.textnodeInvestigationRecords.linkInvestigationRecords" objectLeft="644" objectTop="186" objectRight="845" objectBottom="234" clickPointX="748" clickPointY="203" imageFileName="tcvi528709234246165.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="6" kind="0" dateTime="44791.4162847222" objectName="Aliases.browser.pageInvestigation.navSkipToContent.textnodeHome.textnodeSystemUsers.linkSystemUsers" objectLeft="844" objectTop="186" objectRight="975" objectBottom="234" clickPointX="884" clickPointY="203" imageFileName="tcvi528710500246166.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="8" kind="0" dateTime="44791.4162962963" objectName="Aliases.browser.pageUser.navSkipToContent.textnodeHome.textnodeEmailTemplates.linkEmailTemplates" objectLeft="975" objectTop="186" objectRight="1130" objectBottom="234" clickPointX="1128" clickPointY="195" imageFileName="tcvi528712234246168.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

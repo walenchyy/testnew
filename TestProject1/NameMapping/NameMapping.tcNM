@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{37E0F6E6-A6AE-4670-AD76-6AA40B870FDF}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{3E19E341-CF79-496B-94E0-3D4C86E9075C}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="BrowserWindow" Key="{2D213577-DEF7-4243-856F-1A1FBA284E13}">
+								<Image FileName="540432725" Left="-11" Top="-11" Right="1931" Bottom="1031" />
+								<TypeInfo Item0="{62E7D1AA-BB45-407E-90E2-D61281E52CC1}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageHomePageAccidentReporting" Key="{04E918B3-2832-4A63-9108-2990CCE330B5}">
+								<Image FileName="1521074362" Left="0" Top="154" Right="1920" Bottom="1020" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://accidentreporting.dev2.uwe.ac.uk/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="navSkipToContent" Key="{C82F1C04-62C8-4CD7-9C7E-DD6F332382FF}">
+										<Image FileName="1521074362" Left="0" Top="154" Right="1895" Bottom="268" />
+										<Selectors>
+											<Selector>
+												<Value Value="//nav[contains(., &apos;Skip to content&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[contains(@class, &apos;navbar&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeHome" Key="{EB1A66BD-2081-4BC0-B62B-917227C6D112}">
+										<Image FileName="1521074362" Left="410" Top="186" Right="1506" Bottom="234" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Home&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;flex-grow-1&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeAccidentReports" Key="{B1E06F73-2CA2-4112-8A14-70F282BEB3CD}">
+										<Image FileName="1521074362" Left="481" Top="186" Right="644" Bottom="234" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Accident Reports&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkAccidentReports" Key="{BE53F79C-A6F3-46E8-9D56-A5784DA55DD7}">
+										<Image FileName="1521074362" Left="481" Top="186" Right="644" Bottom="234" />
+										<TypeInfo Item0="{C7643644-7F30-494E-8CBB-699CFDFEA7DD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Accident Reports&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[2]/a[contains(@class, &apos;nav-link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;navbarSupportedContent&apos;]//li[2]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[2]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageAccident" Key="{B8B2F3BF-B3ED-44AF-9CF9-F2034F9E2F95}">
+								<Image FileName="1521074362" Left="0" Top="154" Right="1920" Bottom="1020" />
+								<TypeInfo Item0="{77F69D1E-B4B7-4D28-A81D-A5D20067425F}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://accidentreporting.dev2.uwe.ac.uk/Accident" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="navSkipToContent" Key="{B05AE0E6-1DB1-430D-91BE-51615AAAA0B8}">
+										<Image FileName="1321541876" Left="0" Top="154" Right="1895" Bottom="268" />
+										<Selectors>
+											<Selector>
+												<Value Value="//nav[contains(., &apos;Skip to content&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[contains(@class, &apos;navbar&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeHome" Key="{7F01DC83-EA2C-4335-8268-2DC1D27C8D5C}">
+										<Image FileName="1321541876" Left="410" Top="186" Right="1506" Bottom="234" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Home&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;flex-grow-1&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeInvestigationRecords" Key="{FF15E52D-AA7C-414B-BEEE-A76ABEC169D6}">
+										<Image FileName="1321541876" Left="644" Top="186" Right="845" Bottom="234" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Investigation Records&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkInvestigationRecords" Key="{68D398BD-43B2-46AF-A230-692C322C7646}">
+										<Image FileName="1321541876" Left="644" Top="186" Right="845" Bottom="234" />
+										<TypeInfo Item0="{C7643644-7F30-494E-8CBB-699CFDFEA7DD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Investigation Records&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[3]/a[contains(@class, &apos;nav-link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;navbarSupportedContent&apos;]//li[3]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[3]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageInvestigation" Key="{0DF18623-2A19-49EC-9589-548531830E83}">
+								<Image FileName="1521074362" Left="0" Top="154" Right="1920" Bottom="1020" />
+								<TypeInfo Item0="{77F69D1E-B4B7-4D28-A81D-A5D20067425F}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://accidentreporting.dev2.uwe.ac.uk/Investigation" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="navSkipToContent" Key="{2D553D66-4FEE-4D4D-BECF-E65852EE0A33}">
+										<Image FileName="1926820091" Left="0" Top="154" Right="1895" Bottom="268" />
+										<Selectors>
+											<Selector>
+												<Value Value="//nav[contains(., &apos;Skip to content&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[contains(@class, &apos;navbar&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeHome" Key="{0EDAF522-3DB2-4427-9700-3315727A8ECD}">
+										<Image FileName="1926820091" Left="410" Top="186" Right="1506" Bottom="234" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Home&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;flex-grow-1&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeSystemUsers" Key="{B4B12E0D-32CC-486E-84B5-CADD1D48ADD4}">
+										<Image FileName="1926820091" Left="844" Top="186" Right="975" Bottom="234" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;System Users&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkSystemUsers" Key="{C5E0D10A-D2AB-4DD7-A312-2DECB98DAF28}">
+										<Image FileName="1926820091" Left="844" Top="186" Right="975" Bottom="234" />
+										<TypeInfo Item0="{C7643644-7F30-494E-8CBB-699CFDFEA7DD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;System Users&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[4]/a[contains(@class, &apos;nav-link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;navbarSupportedContent&apos;]//li[4]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[4]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageUser" Key="{F01DEA59-A9E9-47AA-A365-944D7E375B28}">
+								<Image FileName="1521074362" Left="0" Top="154" Right="1920" Bottom="1020" />
+								<TypeInfo Item0="{77F69D1E-B4B7-4D28-A81D-A5D20067425F}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://accidentreporting.dev2.uwe.ac.uk/User" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="navSkipToContent" Key="{75C71BDA-902C-407B-9340-3BF268CF3ADA}">
+										<Image FileName="435139980" Left="0" Top="154" Right="1895" Bottom="268" />
+										<Selectors>
+											<Selector>
+												<Value Value="//nav[contains(., &apos;Skip to content&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[contains(@class, &apos;navbar&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeHome" Key="{E3E47EDB-0EAA-4328-8EE8-A970A5F7BEE1}">
+										<Image FileName="435139980" Left="410" Top="186" Right="1506" Bottom="234" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Home&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;flex-grow-1&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeEmailTemplates" Key="{494E84A8-2CB7-46A9-89D5-C5023BEE94F5}">
+										<Image FileName="-1373307057" Left="975" Top="186" Right="1130" Bottom="234" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Email Templates&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkEmailTemplates" Key="{B7377686-38E8-4715-9FEA-C65A53F6153B}">
+										<Image FileName="-1373307057" Left="975" Top="186" Right="1130" Bottom="234" />
+										<TypeInfo Item0="{C7643644-7F30-494E-8CBB-699CFDFEA7DD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Email Templates&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[5]/a[contains(@class, &apos;nav-link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;navbarSupportedContent&apos;]//li[5]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[5]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{3E19E341-CF79-496B-94E0-3D4C86E9075C}">
+			<Child Name="BrowserWindow" Owner="{2D213577-DEF7-4243-856F-1A1FBA284E13}" />
+			<Child Name="pageHomePageAccidentReporting" Owner="{04E918B3-2832-4A63-9108-2990CCE330B5}">
+				<Child Name="navSkipToContent" Owner="{C82F1C04-62C8-4CD7-9C7E-DD6F332382FF}">
+					<Child Name="textnodeHome" Owner="{EB1A66BD-2081-4BC0-B62B-917227C6D112}">
+						<Child Name="textnodeAccidentReports" Owner="{B1E06F73-2CA2-4112-8A14-70F282BEB3CD}">
+							<Child Name="linkAccidentReports" Owner="{BE53F79C-A6F3-46E8-9D56-A5784DA55DD7}" />
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="pageAccident" Owner="{B8B2F3BF-B3ED-44AF-9CF9-F2034F9E2F95}">
+				<Child Name="navSkipToContent" Owner="{B05AE0E6-1DB1-430D-91BE-51615AAAA0B8}">
+					<Child Name="textnodeHome" Owner="{7F01DC83-EA2C-4335-8268-2DC1D27C8D5C}">
+						<Child Name="textnodeInvestigationRecords" Owner="{FF15E52D-AA7C-414B-BEEE-A76ABEC169D6}">
+							<Child Name="linkInvestigationRecords" Owner="{68D398BD-43B2-46AF-A230-692C322C7646}" />
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="pageInvestigation" Owner="{0DF18623-2A19-49EC-9589-548531830E83}">
+				<Child Name="navSkipToContent" Owner="{2D553D66-4FEE-4D4D-BECF-E65852EE0A33}">
+					<Child Name="textnodeHome" Owner="{0EDAF522-3DB2-4427-9700-3315727A8ECD}">
+						<Child Name="textnodeSystemUsers" Owner="{B4B12E0D-32CC-486E-84B5-CADD1D48ADD4}">
+							<Child Name="linkSystemUsers" Owner="{C5E0D10A-D2AB-4DD7-A312-2DECB98DAF28}" />
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="pageUser" Owner="{F01DEA59-A9E9-47AA-A365-944D7E375B28}">
+				<Child Name="navSkipToContent" Owner="{75C71BDA-902C-407B-9340-3BF268CF3ADA}">
+					<Child Name="textnodeHome" Owner="{E3E47EDB-0EAA-4328-8EE8-A970A5F7BEE1}">
+						<Child Name="textnodeEmailTemplates" Owner="{494E84A8-2CB7-46A9-89D5-C5023BEE94F5}">
+							<Child Name="linkEmailTemplates" Owner="{B7377686-38E8-4715-9FEA-C65A53F6153B}" />
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>
